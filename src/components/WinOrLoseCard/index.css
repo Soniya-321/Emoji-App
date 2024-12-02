@@ -1,0 +1,41 @@
+/* Write your code here. */
+.lose-card {
+  margin: 30px;
+  border: solid 2px #fff;
+  background-color: #ffffff33;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.loss-text {
+  width: 100%;
+}
+.loss-text h1 {
+  color: #fff;
+  font-size: 30px;
+}
+.loss-text p {
+  font-size: 25px;
+  color: #fff;
+}
+.score-count {
+  color: #6a59ff;
+  font-size: 28px;
+  font-weight: bold;
+}
+.lose-card img {
+  width: 50%;
+  height: 70%;
+}
+.loss-text button {
+  background-color: #ffce27;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+}
